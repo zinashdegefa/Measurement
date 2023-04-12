@@ -11,7 +11,7 @@ public class ConvertTo {
 
 
         Scanner input = new Scanner(System.in);
-        
+
        String answer = "";
 
             System.out.println("Enter your Name: ");

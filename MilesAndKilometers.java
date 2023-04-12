@@ -38,14 +38,6 @@ public class MilesAndKilometers {
 
        }
        System.out.println("See you!");
-       System.out.println("TO go back to measurement\npress Number 4.");
-       answer = input.next();
-       if (answer.equalsIgnoreCase("4"))  { switch (answer) {
-           case "4":
-               break;
-       }
-
-       }
 
    }
 
