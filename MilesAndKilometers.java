@@ -6,14 +6,9 @@ public class MilesAndKilometers {
 
       Scanner input = new Scanner(System.in);
 
-      System.out.println("Enter your Name:  ");
-       String name = input.next();
-
-      System.out.println("Hello " + name +"! you are here to change Mile to Km or Km to Mile. "   );
-
          String answer = "";
        while (!answer.equalsIgnoreCase("No")) {
-           System.out.println("What do you want to change ?");
+           System.out.println("Choose 1 or 2 ?");
 
            System.out.println("1. mile to km \n2. km to mile");
 
@@ -38,11 +33,19 @@ public class MilesAndKilometers {
                System.out.println("Please enter a valid number (1 or 2)");
 
            }
-           System.out.println("Do you want to continue?");
+           System.out.println("Do you want to continue in Miles and Kilometers ?");
             answer = input.next();
 
        }
-       System.out.print("Thank you! ");
+       System.out.println("See you!");
+       System.out.println("TO go back to measurement\npress Number 4.");
+       answer = input.next();
+       if (answer.equalsIgnoreCase("4"))  { switch (answer) {
+           case "4":
+               break;
+       }
+
+       }
 
    }
 
